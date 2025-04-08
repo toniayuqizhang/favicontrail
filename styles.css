@@ -15,6 +15,15 @@
     width:50%;
 }
 
+
+/* h1 {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+  }
+  
+  p {
+    font-size: clamp(1rem, 3.5vw, 1.25rem);
+  } */
+
 h1 {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: 400;
@@ -102,3 +111,36 @@ h2 {
     margin-bottom:30px;
     letter-spacing: -0.3px;
   }
+
+
+
+
+  /* Mobile responsiveness */
+@media (max-width: 768px) {
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 28px;
+      margin-top: 60px;
+    }
+  
+    h2 {
+      font-size: 20px;
+      line-height: 1.5;
+      letter-spacing: -0.5px;
+      text-align: left;
+    }
+  
+    .custom-btn {
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  
+    a {
+      font-size: 16px;
+    }
+  }
+  
