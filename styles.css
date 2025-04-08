@@ -16,6 +16,23 @@
 }
 
 
+.logo-img {
+    display: block;
+    margin: 40px auto 20px auto; /* top, right/left, bottom */
+    margin-top:100px;
+    width: 64px;
+    height: auto;
+  }
+
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px; /* Optional spacing between images */
+  }
+
+
 /* h1 {
     font-size: clamp(1.8rem, 5vw, 3rem);
   }
@@ -30,7 +47,7 @@ h1 {
     font-size: 36px;
     text-align: center;
     margin-top: 100px;
-    margin-bottom:30px;
+    margin-bottom:70px;
     letter-spacing: -0.9px;
     
 }
@@ -42,6 +59,46 @@ h2 {
     text-align: center;
     letter-spacing: -0.8px;
     line-height: 110%;
+    /* margin-bottom:50px; */
+    margin-top:50px;
+    
+}
+
+h3 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: left;
+    letter-spacing: -0.8px;
+    line-height: 110%;
+    /* margin-bottom:50px; */
+    margin-top:50px;
+    
+}
+
+
+h4 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 110%;
+    margin-top:40px;
+    margin-bottom:10px;
+    color: #848484;
+    
+}
+
+p {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 0px;
+    line-height: 110%;
+    margin-top:40px;
+    margin-bottom:10px;
     
 }
 
